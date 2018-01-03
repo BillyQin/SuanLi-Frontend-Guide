@@ -35,5 +35,5 @@ let { loading, clicked } = props;
 let { loading = false, clicked } = props;
 ```
 
-
+**（6） 异步操作时请使用Promise或async **原因：多重回调函数容易出现回调地狱，代码不易理解
 
