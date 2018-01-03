@@ -14,3 +14,17 @@
 
 4.**函数**的命名：驼峰命名法, 如showContent \(\)
 
+```
+//不推荐以下命名
+
+getDetaila/getDetailb 
+
+d1/d2 
+
+sheol1/sheol2/sheol3
+
+k,f
+```
+
+
+
