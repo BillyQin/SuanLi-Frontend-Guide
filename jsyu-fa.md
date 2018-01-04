@@ -37,3 +37,19 @@ let { loading = false, clicked } = props;
 
 **（6） 异步操作时请使用Promise或async **原因：多重回调函数容易出现回调地狱，代码不易理解
 
+**（7） 代码缩进两个空格 **原因：格式保持一致性** **
+
+**（8） 函数参数添加默认值（非必需） **原因：减少不必要的传参错误 如：
+
+```
+function log(x, y = 'World') {
+  console.log(x, y);
+}
+
+console.log('Hello') // Hello World
+console.log('Hello', 'China') // Hello China
+console.log('Hello', '') // Hello
+```
+
+
+
