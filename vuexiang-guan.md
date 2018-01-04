@@ -10,11 +10,11 @@ vue的生命周期如下：
 
 ###### beforeCreate -&gt; created -&gt; beforeMount -&gt; Mounted -&gt; \( -&gt; beforeUpdate -&gt; updated \) -&gt; beforDestroy -&gt; destroyed
 
-在生命周期函数里不要写过多表达式（如axios请求）或复杂的逻辑代码，应把该部分代码封装在methods或computed或watch
+1.在生命周期函数里不要写过多表达式（如axios请求）或复杂的逻辑代码，应把该部分代码封装在methods或computed或watch
+
+2.在vue的 模板内（{{}}）是可以写一些简单的js表达式的 ，很便利。但是如果在页面中使用大量或是复杂的表达式去处理数据，对页面的维护会有很大的影响。这个时候就需要用到computed 计算属性来处理复杂的逻辑运算。
 
 #### 3.组件
-
-
 
 #### 4.axios
 
